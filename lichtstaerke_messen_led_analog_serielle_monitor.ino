@@ -13,6 +13,6 @@ void loop() {
   Serial.println("Sensorwert: ");
   Serial.println(led_blue_value);
   analogWrite(led_blue, led_blue_value/6);
-  delay(10);
+  delay(1000);
   
 }
